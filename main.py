@@ -26,7 +26,7 @@ while i < 1000000000000000000000:
             element.click()
     except: pass
     
-    #If checking if i is divisble by 100
+    #Checking if i is divisble by 100
     if i % 100 == 0:
         try:
             e = WebDriverWait(driver, 10).until(

@@ -4,7 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service
 
-ser = Service('C:\Program Files (x86)\chromedriver.exe')
+ser = Service('Enter Your Chroedriver Path')
 op = webdriver.ChromeOptions()
 driver = webdriver.Chrome(service=ser, options=op)
 
